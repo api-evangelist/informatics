@@ -1,121 +1,23 @@
-name: Informatics API
-description: A collection of APIs for informatics, bioinformatics, and computational biology services
-image: https://example.com/informatics-logo.png
+aid: informatics
+name: Informatics
+description: >-
+  Informatics encompasses the science of information and computation, including
+  bioinformatics, health informatics, and computational biology. This index
+  covers APIs and services related to informatics tools, data management, and
+  analytical capabilities for research and healthcare applications.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- bioinformatics
-- genomics
-- computational biology
-- healthcare
-- research
+  - Informatics
+  - Bioinformatics
+  - Healthcare
+  - Research
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/informatics/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2024-01-15'
-url: https://apis.io/informatics
-specificationVersion: '0.18'
-apis:
-- name: Genomics Data API
-  description: API for accessing and querying genomic sequence data and annotations
-  image: https://example.com/genomics-api-icon.png
-  humanURL: https://informatics.example.com/genomics
-  baseURL: https://api.informatics.example.com/v1/genomics
-  tags:
-  - genomics
-  - DNA
-  - sequences
-  - genes
-  properties:
-  - type: Documentation
-    url: https://docs.informatics.example.com/genomics
-  - type: OpenAPI
-    url: https://api.informatics.example.com/openapi/genomics.yaml
-  - type: Authentication
-    url: https://docs.informatics.example.com/auth
-  - type: RateLimits
-    url: https://docs.informatics.example.com/rate-limits
-  contact:
-  - FN: Genomics API Support
-    email: genomics-support@informatics.example.com
-    url: https://support.informatics.example.com
-- name: Clinical Trials API
-  description: API for accessing clinical trial data and patient informatics
-  image: https://example.com/clinical-api-icon.png
-  humanURL: https://informatics.example.com/clinical
-  baseURL: https://api.informatics.example.com/v1/clinical
-  tags:
-  - clinical trials
-  - patients
-  - healthcare
-  - medical research
-  properties:
-  - type: Documentation
-    url: https://docs.informatics.example.com/clinical
-  - type: OpenAPI
-    url: https://api.informatics.example.com/openapi/clinical.yaml
-  - type: Authentication
-    url: https://docs.informatics.example.com/auth
-  - type: Privacy
-    url: https://informatics.example.com/privacy
-  contact:
-  - FN: Clinical API Support
-    email: clinical-support@informatics.example.com
-    url: https://support.informatics.example.com
-- name: Protein Structure API
-  description: API for protein structure analysis and prediction
-  image: https://example.com/protein-api-icon.png
-  humanURL: https://informatics.example.com/proteins
-  baseURL: https://api.informatics.example.com/v1/proteins
-  tags:
-  - proteins
-  - structure
-  - molecular biology
-  - bioinformatics
-  properties:
-  - type: Documentation
-    url: https://docs.informatics.example.com/proteins
-  - type: OpenAPI
-    url: https://api.informatics.example.com/openapi/proteins.yaml
-  - type: SDKs
-    url: https://github.com/informatics/protein-sdk
-  contact:
-  - FN: Protein API Support
-    email: protein-support@informatics.example.com
-- name: Biomedical Literature API
-  description: API for searching and analyzing biomedical research literature
-  image: https://example.com/literature-api-icon.png
-  humanURL: https://informatics.example.com/literature
-  baseURL: https://api.informatics.example.com/v1/literature
-  tags:
-  - publications
-  - research
-  - literature
-  - PubMed
-  properties:
-  - type: Documentation
-    url: https://docs.informatics.example.com/literature
-  - type: OpenAPI
-    url: https://api.informatics.example.com/openapi/literature.yaml
-  - type: Swagger
-    url: https://api.informatics.example.com/swagger/literature
-  contact:
-  - FN: Literature API Support
-    email: literature-support@informatics.example.com
-common:
-- type: Portal
-  url: https://developer.informatics.example.com
-- type: GettingStarted
-  url: https://docs.informatics.example.com/getting-started
-- type: Authentication
-  url: https://docs.informatics.example.com/authentication
-- type: Status
-  url: https://status.informatics.example.com
-- type: TermsOfService
-  url: https://informatics.example.com/terms
-- type: PrivacyPolicy
-  url: https://informatics.example.com/privacy
-- type: Support
-  url: https://support.informatics.example.com
-- type: Blog
-  url: https://blog.informatics.example.com
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
 maintainers:
-- FN: Informatics Platform Team
-  email: api-team@informatics.example.com
-  url: https://informatics.example.com/about
+  - FN: Kin Lane
+    email: kin@apievangelist.com
