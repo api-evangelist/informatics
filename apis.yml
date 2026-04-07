@@ -8,9 +8,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Informatics
   - Bioinformatics
   - Healthcare
+  - Informatics
   - Research
 url: >-
   https://raw.githubusercontent.com/api-evangelist/informatics/refs/heads/main/apis.yml
