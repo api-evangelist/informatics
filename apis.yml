@@ -1,5 +1,6 @@
 aid: informatics
 name: Informatics
+kind: topic
 description: >-
   Informatics encompasses the science of information and computation, including
   bioinformatics, health informatics, clinical informatics, and computational
